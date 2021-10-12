@@ -1,10 +1,6 @@
 package net.entity;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class OrderItem extends AbstractEntity<Long>{
 	private static final long serialVersionUID = -365373848626193474L;
 	private Long idOrder;
