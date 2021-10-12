@@ -13,11 +13,7 @@ import net.model.ShoppingCart;
 import net.model.ShoppingCartItem;
 import net.util.SessionUtils;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 @WebFilter(filterName="AutoRestoreShoppingCartFilter")
 public class AutoRestoreShoppingCartFilter extends AbstractFilter {
 	private static final String SHOPPING_CARD_DESERIALIZATION_DONE = "SHOPPING_CARD_DESERIALIZATION_DONE";
