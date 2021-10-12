@@ -1,10 +1,6 @@
 package net.entity;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class Account extends AbstractEntity<Integer> {
 	private static final long serialVersionUID = -3196229925974576545L;
 	private String name;
