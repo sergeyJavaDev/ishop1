@@ -2,11 +2,7 @@ package net.entity;
 
 import java.math.BigDecimal;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class Product extends AbstractEntity<Integer> {
 	private static final long serialVersionUID = -1126801453251616206L;
 	private String name;
