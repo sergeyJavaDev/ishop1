@@ -7,11 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import net.Constants;
 import net.model.ShoppingCart;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class SessionUtils {
 	public static ShoppingCart getCurrentShoppingCart(HttpServletRequest req) {
 		ShoppingCart shoppingCart = (ShoppingCart) req.getSession().getAttribute(Constants.CURRENT_SHOPPING_CART);
