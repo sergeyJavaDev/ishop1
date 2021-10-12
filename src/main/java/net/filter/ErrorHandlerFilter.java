@@ -10,11 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 
 import net.util.RoutingUtils;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 @WebFilter(filterName="ErrorHandlerFilter")
 public class ErrorHandlerFilter extends AbstractFilter {
 	@Override
