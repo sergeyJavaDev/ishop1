@@ -5,11 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public final class JDBCUtils {
 
 	public static <T> T select(Connection c, String sql, ResultSetHandler<T> resultSetHandler, Object... parameters) throws SQLException {
