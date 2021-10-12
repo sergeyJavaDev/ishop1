@@ -1,10 +1,5 @@
 package net.entity;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
 public class Category extends AbstractEntity<Integer> {
 	private static final long serialVersionUID = 5709707193151272208L;
 	private String name;
