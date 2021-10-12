@@ -2,11 +2,7 @@ package net.entity;
 
 import java.io.Serializable;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public abstract class AbstractEntity<T> implements Serializable {
 	private static final long serialVersionUID = -774095045487801539L;
 	T id;
