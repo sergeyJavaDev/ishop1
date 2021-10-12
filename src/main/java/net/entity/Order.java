@@ -4,11 +4,7 @@ import java.math.BigDecimal;
 import java.sql.Timestamp;
 import java.util.List;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class Order extends AbstractEntity<Long>{
 	private static final long serialVersionUID = 3026083684140455633L;
 	private Integer idAccount;
