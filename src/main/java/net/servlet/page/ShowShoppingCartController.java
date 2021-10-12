@@ -10,11 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import net.servlet.AbstractController;
 import net.util.RoutingUtils;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 @WebServlet("/shopping-cart")
 public class ShowShoppingCartController extends AbstractController {
 	private static final long serialVersionUID = -1916373553298888514L;
