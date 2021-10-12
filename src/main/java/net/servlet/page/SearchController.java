@@ -10,11 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import net.servlet.AbstractController;
 import net.util.RoutingUtils;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 @WebServlet("/search")
 public class SearchController extends AbstractController {
 	private static final long serialVersionUID = 1015660808630879774L;
