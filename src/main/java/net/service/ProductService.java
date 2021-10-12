@@ -6,11 +6,7 @@ import net.entity.Category;
 import net.entity.Producer;
 import net.entity.Product;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public interface ProductService {
 
 	List<Product> listAllProducts(int page, int limit);
