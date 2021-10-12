@@ -13,11 +13,7 @@ import net.entity.Product;
 import net.servlet.AbstractController;
 import net.util.RoutingUtils;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 @WebServlet("/ajax/html/more/products")
 public class AllProductsMoreController extends AbstractController {
 	private static final long serialVersionUID = -4385792519039493271L;
