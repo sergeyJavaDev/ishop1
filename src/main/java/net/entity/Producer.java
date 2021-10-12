@@ -1,9 +1,5 @@
 package net.entity;
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class Producer extends AbstractEntity<Integer> {
 	private static final long serialVersionUID = -4967160259057526492L;
 	private String name;
