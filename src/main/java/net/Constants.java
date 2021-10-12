@@ -1,10 +1,6 @@
 package net;
 
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public final class Constants {
 	public static final String CURRENT_SHOPPING_CART = "CURRENT_SHOPPING_CART";
 	
@@ -16,11 +12,7 @@ public final class Constants {
 	
 	public static final int MAX_PRODUCTS_PER_HTML_PAGE = 12;
 	
-	/**
-	 * 
-	 * @author devstudy
-	 * @see http://devstudy.net
-	 */
+	
 	public enum Cookie {
 		//1 year ttl
 		SHOPPING_CART("iSCC", 60 * 60 * 24 * 365);
