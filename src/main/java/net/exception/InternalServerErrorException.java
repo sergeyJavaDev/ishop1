@@ -1,9 +1,5 @@
 package net.exception;
-/**
- * 
- * @author devstudy
- * @see http://devstudy.net
- */
+
 public class InternalServerErrorException extends RuntimeException {
 	private static final long serialVersionUID = 6735903147426906964L;
 
