@@ -13,11 +13,7 @@
 //import javax.servlet.http.HttpServletResponse;
 //import javax.servlet.http.HttpServletResponseWrapper;
 //
-///**
-// *
-// * @author devstudy
-// * @see http://devstudy.net
-// */
+
 //@WebFilter(filterName="TrimResponseFilter")
 //public class TrimResponseFilter extends AbstractFilter {
 //
@@ -29,11 +25,7 @@
 //		response.complete();
 //	}
 //
-//	/**
-//	 *
-//	 * @author devstudy
-//	 * @see http://devstudy.net
-//	 */
+//	
 //	private static class TrimResponse extends HttpServletResponseWrapper {
 //		private TrimProxyWriter trimProxyWriter;
 //		private TrimResponse(HttpServletResponse response) throws IOException {
@@ -69,11 +61,7 @@
 //		}
 //	}
 //
-//	/**
-//	 *
-//	 * @author devstudy
-//	 * @see http://devstudy.net
-//	 */
+//	
 //	private static class TrimProxyWriter extends Writer {
 //		private final Writer wr;
 //		private int length;
